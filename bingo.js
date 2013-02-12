@@ -46,6 +46,7 @@ function randomizeBoard() {
     }
 
     // Fire up the RNG based on the given seed
+    delete this.rand;
     this.rand = new RandomNumberGenerator( this.seed );
     document.getElementById("gamenr").innerHTML = this.seed;
 
