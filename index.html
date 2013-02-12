@@ -1,0 +1,97 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>STY1 Bingó</title>
+  <meta name="description" content="Bingó spjald til að hafa með sér í Stýrikerfistíma.">
+  <link rel="stylesheet" type="text/css" href="bingo.css" />
+  <script src="bingo.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div id="pretitle">STÝRIKERFIS</div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <div style="position: relative;">
+              <img src="yellowbg.png" style="width:110px; height: 110px;" />
+              <div style="position: absolute; top: 30%; left: 40%;">B</div>
+            </div>
+          </th>
+          <th>
+            <div style="position: relative;">
+              <img src="yellowbg.png" style="width:110px; height: 110px;" />
+              <div style="position: absolute; top: 30%; left: 45%;">I</div>
+            </div>
+          </th>
+          <th>
+            <div style="position: relative;">
+              <img src="yellowbg.png" style="width:110px; height: 110px;" />
+              <div style="position: absolute; top: 30%; left: 35%;">N</div>
+            </div>
+          </th>
+          <th>
+            <div style="position: relative;">
+              <img src="yellowbg.png" style="width:110px; height: 110px;" />
+              <div style="position: absolute; top: 30%; left: 35%;">G</div>
+            </div>
+          </th>
+          <th>
+            <div style="position: relative;">
+              <img src="yellowbg.png" style="width:110px; height: 110px;" />
+              <div style="position: absolute; top: 30%; left: 35%;">Ó</div>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="cell1"></td>
+          <td id="cell2"></td>
+          <td id="cell3"></td>
+          <td id="cell4"></td>
+          <td id="cell5"></td>
+        </tr>
+        <tr>
+          <td id="cell6"></td>
+          <td id="cell7"></td>
+          <td id="cell8"></td>
+          <td id="cell9"></td>
+          <td id="cell10"></td>
+        </tr>
+        <tr>
+          <td id="cell11"></td>
+          <td id="cell12"></td>
+          <td id="centercell">
+            <div style="position: relative;">
+              <img src="greenbg.png" style="width:110px; height: 110px;" />
+              <div style="position: absolute; top: 35%; left: 0;">Ýmir mættur á svæðið</div>
+            </td>
+          <td id="cell13"></td>
+          <td id="cell14"></td>
+        </tr>
+        <tr>
+          <td id="cell15"></td>
+          <td id="cell16"></td>
+          <td id="cell17"></td>
+          <td id="cell18"></td>
+          <td id="cell19"></td>
+        </tr>
+        <tr>
+          <td id="cell20"></td>
+          <td id="cell21"></td>
+          <td id="cell22"></td>
+          <td id="cell23"></td>
+          <td id="cell24"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="gameinfo">Spjald númer <span id="gamenr">0</span></div>
+  </div>
+  <div id="controls" class="noPrint">
+    <button onclick="randomizeBoard()">Randomize</button>
+    <button onclick="window.print()">Print</button>
+  </div>
+</body>
+</html>
